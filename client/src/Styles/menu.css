@@ -1,0 +1,220 @@
+.menu {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.filterSection{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgb(118, 118, 118);
+
+}
+
+.search{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search>input{
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid rgb(177, 177, 177);
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search>button{
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search>button:hover{
+    background-color: rgba(0, 0, 0, 0.708);
+}
+
+.filterbtn{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filterbtn>button{
+     width: 80px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.filterbtn>button:hover{
+    background-color: rgba(0, 0, 0, 0.708);
+}
+
+.menuHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuHead>h1 {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 4rem;
+    border-bottom: 1px solid gray;
+}
+
+
+.category {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin-top: 20px;
+}
+
+.pizzaDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 400px;
+    height: 28rem;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.413);
+
+}
+
+.pizzaDetails>h3 {
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    background-color: crimson;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pizzaDetails>img {
+    width: 70%;
+    height: 10rem;
+}
+
+.categorysection{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categorysection>p,span{
+    font-size: 20px;
+}
+
+.selectionpizza{
+    width: 70%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.selectiontype>label{
+    font-size: 20px;
+    color:black;
+}
+
+.selectiontype>select{
+    width: 70px;
+    height: 25px;
+    outline: none;
+    border: 1px solid gray;
+    color: black
+}
+
+.selectiontype{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.pizzaDetails>h4 {
+    width: 70%;
+    color: black;
+    font-size: 25px;
+    text-align: start;
+
+}
+
+.pizzaDetails>button {
+
+    width:90%;
+    height: 45px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pizzaDetails>button:hover {
+
+    background-color: rgba(220, 20, 60, 0.833);
+    color: white
+}
+
+@media screen and (max-width: 768px) {
+
+    .menuHead>h1 {
+        margin-top: 6rem;
+        
+    }
+    
+}

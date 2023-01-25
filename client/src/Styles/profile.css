@@ -1,0 +1,109 @@
+.profileContainer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.profileWidth {
+    width: 70%;
+    min-height: 100vh;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.imgContainer {
+
+    width: 100%;
+    min-height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgContainer>h1 {
+    margin-top: 6rem;
+    color: black;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+}
+
+.imgContainer>img {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+
+.imgContainer>input {
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.317);
+    color: black;
+    padding: 10px;
+
+}
+
+.profileDetails {
+
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.profileDetails>h3 {
+
+    border: 1px solid rgba(128, 128, 128, 0.63);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: start;
+    margin-top: 0.5rem;
+    color: gray;
+}
+
+.btnContainer {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btnContainer>button {
+    width: 10rem;
+    height: 40px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    margin: 0.5rem;
+    background-color: crimson;
+    font-size: 1rem;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .profileWidth {
+        width: 100%;
+    }
+
+    .profileDetails {
+        width: 90%;
+    }
+
+    .btnContainer {
+
+        flex-wrap: wrap;
+    }
+
+}
